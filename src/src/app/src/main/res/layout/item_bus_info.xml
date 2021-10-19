@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/traffic.bus_item.root">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="06:33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/start_time_tv"
+        style="@style/traffic.bus_item.time" />
+
+    <LinearLayout
+        android:id="@+id/start_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/start_time_tv"
+        style="@style/traffic.bus_item.city">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/start_city_icon"
+            android:id="@+id/start_city_iv"
+            style="@style/traffic.bus_item.city_icon" />
+
+        <TextView
+            android:text="长途客运南站"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_station_tv"
+            style="@style/traffic.bus_item.city_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/end_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/start_time_tv"
+        android:layout_below="@id/start_city"
+        style="@style/traffic.bus_item.city">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/end_city_icon"
+            android:id="@+id/end_city_iv"
+            style="@style/traffic.bus_item.city_icon" />
+
+        <TextView
+            android:text="上海"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/end_station_tv"
+            style="@style/traffic.bus_item.city_text" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:text="38元"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ticket_price_tv"
+        style="@style/traffic.bus_item.price" />
+
+
+</RelativeLayout>

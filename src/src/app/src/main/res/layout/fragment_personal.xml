@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/personal.root"
+    tools:context=".ui.activity.HomeActivity_">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        style="@style/personal.icon_group">
+
+        <ImageView
+            android:id="@+id/user_icon_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            style="@style/personal.user_icon"
+            android:src="@drawable/user_icon_1" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击头像登陆"
+            style="@style/personal.icon_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/personal.list_group">
+
+        <LinearLayout
+            android:id="@+id/my_sales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/personal.list_item">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/my_p2p_icon"
+                style="@style/personal.icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/personal.list_item_text">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我发布的商品"
+                    style="@style/personal.text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    style="@style/personal.underline" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/my_publish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/personal.list_item">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/my_poi_icon"
+                style="@style/personal.icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/personal.list_item_text">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我发布的信息"
+                    style="@style/personal.text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    style="@style/personal.underline" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/public_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/personal.list_item">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/info_icon"
+                style="@style/personal.icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/personal.list_item_text">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="公告信息"
+                    style="@style/personal.text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    style="@style/personal.underline" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/logout_bn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/personal.list_item">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/logout_icon"
+                style="@style/personal.icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/personal.list_item_text">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="退出登录"
+                    style="@style/personal.text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    style="@style/personal.underline" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/app_version_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="版本号：V1.0"
+        style="@style/personal.appversion" />
+
+</LinearLayout>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/life.root">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/life.launcher_group_leave0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="交通出行"
+            style="@style/life.title_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/life.launcher_group_leave1">
+
+            <LinearLayout
+                android:id="@+id/plane"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/life.launcher_group_leave2">
+
+                <ImageView
+                    android:id="@+id/plane_iv"
+                    android:layout_width="@dimen/home_page_navigate_button_size"
+                    android:layout_height="@dimen/home_page_navigate_button_size"
+                    android:src="@drawable/plane_launcher" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="飞机"
+                    style="@style/life.launcher_text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/train"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/life.launcher_group_leave2">
+
+                <ImageView
+                    android:id="@+id/train_iv"
+                    android:layout_width="@dimen/home_page_navigate_button_size"
+                    android:layout_height="@dimen/home_page_navigate_button_size"
+                    android:src="@drawable/train_launcher" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="火车"
+                    style="@style/life.launcher_text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/life.launcher_group_leave2">
+
+                <ImageView
+                    android:id="@+id/bus_iv"
+                    android:layout_width="@dimen/home_page_navigate_button_size"
+                    android:layout_height="@dimen/home_page_navigate_button_size"
+                    android:src="@drawable/bus_launcher" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="大巴"
+                    style="@style/life.launcher_text" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/life.launcher_group_leave0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="家政服务"
+            style="@style/life.title_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/life.launcher_group_leave1">
+
+            <LinearLayout
+                android:id="@+id/move"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/life.launcher_group_leave2">
+
+                <ImageView
+                    android:id="@+id/move_iv"
+                    android:layout_width="@dimen/home_page_navigate_button_size"
+                    android:layout_height="@dimen/home_page_navigate_button_size"
+                    android:src="@drawable/move_launcher" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="搬家"
+                    style="@style/life.launcher_text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/maternitymatron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/life.launcher_group_leave2">
+
+                <ImageView
+                    android:id="@+id/maternitymatron_iv"
+                    android:layout_width="@dimen/home_page_navigate_button_size"
+                    android:layout_height="@dimen/home_page_navigate_button_size"
+                    android:src="@drawable/moonwomen_launcher" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="月嫂"
+                    style="@style/life.launcher_text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cleaner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/life.launcher_group_leave2">
+
+                <ImageView
+                    android:id="@+id/cleaner_iv"
+                    android:layout_width="@dimen/home_page_navigate_button_size"
+                    android:layout_height="@dimen/home_page_navigate_button_size"
+                    android:src="@drawable/cleaner_launcher" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="保洁"
+                    style="@style/life.launcher_text" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/life.p2p_group_leave0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/life.p2p_group_leave1">
+
+            <LinearLayout
+                android:id="@+id/buy_fruit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/life.p2p_group_leave2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/life.p2p_group_leave3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="蔬菜家禽"
+                        style="@style/life.p2p_launcher_title_text" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="新鲜蔬果，美味家禽"
+                        style="@style/life.p2p_launcher_describe_text" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/fruit_launcher"
+                    style="@style/life.p2p_launcher_icon" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                style="@style/life.divider" />
+
+            <LinearLayout
+                android:id="@+id/buy_electric_appliance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/life.p2p_group_leave2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/life.p2p_group_leave3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="电子商品"
+                        style="@style/life.p2p_launcher_title_text" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="联想手机，苹果电脑"
+                        style="@style/life.p2p_launcher_describe_text" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/electric_launcher"
+                    style="@style/life.p2p_launcher_icon" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/life.underline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/life.p2p_group_leave1">
+
+            <LinearLayout
+                android:id="@+id/buy_clothes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/life.p2p_group_leave2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/life.p2p_group_leave3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="衣服鞋包"
+                        style="@style/life.p2p_launcher_title_text" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="名牌折扣，潮流新款"
+                        style="@style/life.p2p_launcher_describe_text" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/clothes_launcher"
+                    style="@style/life.p2p_launcher_icon" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                style="@style/life.divider" />
+
+            <LinearLayout
+                android:id="@+id/buy_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/life.p2p_group_leave2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/life.p2p_group_leave3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="更多交易"
+                        style="@style/life.p2p_launcher_title_text" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="更多商品，更多惊喜"
+                        style="@style/life.p2p_launcher_describe_text" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/more_launcher"
+                    style="@style/life.p2p_launcher_icon" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

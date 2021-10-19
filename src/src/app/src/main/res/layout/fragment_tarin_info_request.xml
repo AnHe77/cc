@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/traffic.root">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/traffic.city_group_leave1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/traffic.city_group_leave2">
+
+                <LinearLayout
+                    android:id="@+id/strat_loaction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/traffic.city_group_leave3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="出发城市"
+                        style="@style/traffic.city_text_title" />
+
+                    <TextView
+                        android:id="@+id/strat_loaction_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="北京"
+                        style="@style/traffic.city_text_content" />
+
+                    <ImageView
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:src="@drawable/arror_icon"
+                        style="@style/traffic.arror_icon" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    style="@style/traffic.underline" />
+
+
+                <LinearLayout
+                    android:id="@+id/end_loaction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/traffic.city_group_leave3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="到达城市"
+                        style="@style/traffic.city_text_title" />
+
+                    <TextView
+                        android:id="@+id/end_loaction_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="上海"
+                        style="@style/traffic.city_text_content" />
+
+                    <ImageView
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:src="@drawable/arror_icon"
+                        style="@style/traffic.arror_icon" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    style="@style/traffic.underline" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/exchange_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/refresh_icon"
+                style="@style/traffic.exchange" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/choose_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/traffic.city_group_leave3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出发日期"
+                style="@style/traffic.city_text_title" />
+
+            <TextView
+                android:id="@+id/date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015-03-31 周二"
+                style="@style/traffic.city_text_content.date" />
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:src="@drawable/arror_icon"
+                style="@style/traffic.arror_icon" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/traffic.underline" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            style="@style/traffic.bn" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
