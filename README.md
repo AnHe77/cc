@@ -50,7 +50,7 @@ In the end of the research,it is be proved that use these open source project an
 | 5.0         | Lollipop    | 21   | 5.0%         |
 | 5.1         |             | 22   | 0.4%         |
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/e00658de6164916c0b5b5e400be72837.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/e00658de6164916c0b5b5e400be72837.writebug)
 
 另外一方面，Android设备的尺寸跨度非常巨大。如表1-2，图1-2所示，适配一款Android应用需要考虑的屏幕尺寸大小需要分为small、normal、large、Xlarge四种。而分辨率则需要分为ldpi、mdpi、hdpi、xhdpi、xxhdpi六种。而大屏和高分辨率正在变为市场的主流趋势[5]。
 
@@ -62,7 +62,7 @@ In the end of the research,it is be proved that use these open source project an
 | Xlarge |      | 3.2%  | 0.3%  | 0.6%  |        | 4.1%  |
 | Total  | 4.8% | 16.1% | 40.2% | 20.7% | 15.9%  |       |
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/b76c54de99b2a1a5fec1bd48bfdce7f3.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/b76c54de99b2a1a5fec1bd48bfdce7f3.writebug)
 
 ## 1.2 本课题的研究目的和意义
 
@@ -92,7 +92,7 @@ EventBus是由Greenrobot提供的一个用于模块间通信的工具，他可�
 
 如图2-1所示，消息提交者将一个事件推送给EventBus，之后EventBus将事件分发给该事件的订阅者，并回调他们的onEvent方法。EventBus的这种特性使得模块间的通信变的异常的容易，并且执行效率非常的高，使用代码非常的简单，依赖包非常的小。EventBus被超过一亿的应用使用，这些特性足以证明该框架优越性[8]。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/c6613760e0b9a9e724a233da944260e9.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/c6613760e0b9a9e724a233da944260e9.writebug)
 
 同时集成使用EventBus的过程也非常的简单，因为EventBus已经在Maven核心仓库中出现了，因此可以非常容易在Maven和Gradle中使用EventBus框架。
 
@@ -112,7 +112,7 @@ AndroidAnnotation是一个开源的框架，他使得Android开发变的更加�
 
 - **REST客户端**，只需要实现一个简单的REST接口，AndroidAnnotation就可以帮助你生成正真的REST代码[9]
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/a878d9441f26d5acae3aa303b17c1a0d.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/a878d9441f26d5acae3aa303b17c1a0d.writebug)
 
 ### 2.2.3 Bolts 的使用
 
@@ -138,11 +138,11 @@ Bolts框架主要包括以下内容。
 
 下图将会向你简单介绍Task的使用方式：
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/935fab7b2309d373ba83400761619905.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/935fab7b2309d373ba83400761619905.writebug)
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/a377ee736a75bd06310ecc94df57d9b9.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/a377ee736a75bd06310ecc94df57d9b9.writebug)
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/90650f735ec104d67481a3d51a54756b.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/90650f735ec104d67481a3d51a54756b.writebug)
 
 ### 2.2.4 Android 开发最实践
 
@@ -184,11 +184,11 @@ Bolts框架主要包括以下内容。
 
 **老的项目架构**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/7ad6f9119549f46a9a9efbc49f59d671.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/7ad6f9119549f46a9a9efbc49f59d671.writebug)
 
 **新的项目架构**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/3923ef5cdcf6da1a546bfdd0e045e00d.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/3923ef5cdcf6da1a546bfdd0e045e00d.writebug)
 
 # 第三章 需求分析与交互设计
 
@@ -206,49 +206,49 @@ Bolts框架主要包括以下内容。
 
 用户可以选择当前所在的城市，根据当前的城市信息，查询所需的生活信息。提供一个城市列表供用户选择，并且可以通过GPS定位到当前设备所在的城市，方便用户选择城市。城市选择用例图如3-1所示。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/c3b5f0803cedfeb77796fa4f3c810679.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/c3b5f0803cedfeb77796fa4f3c810679.writebug)
 
 ## 3.2 查询医疗信息功能
 
 用户可以查询到当前选择城市的相关医疗信息。这些信息主要包括周边的医院的地址，电话，介绍。通过这些信息为用户提供医疗服务。用户还可以添加相关的医疗信息，以丰富数据。其用例图如图3-2所示。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/e045311085f2d8eeb74075419b98d9cd.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/e045311085f2d8eeb74075419b98d9cd.writebug)
 
 ## 3.3 查询交通信息功能
 
 用户可以查询当前的实时航班信息，查询到12306的实时火车票信息，查询到长途大巴票的信息。根据这些信息为用户提供出行指南。其用例图如图3-3所示。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/2596033cf70f23f7acd2133b403249d0.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/2596033cf70f23f7acd2133b403249d0.writebug)
 
 ## 3.4 查询酒店信息功能
 
 用户可以根据当前所在的城市，查询周边的酒店信息。这些信息主要包括酒店的地址，电话，介绍。通过这些信息用户可以随时找到合适的酒店安顿下来。当然，用户还可以添加相关的酒店信息，以丰富数据。其用例图如图3-4所示。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/db76e944be51cdeba85463769bbd6860.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/db76e944be51cdeba85463769bbd6860.writebug)
 
 ## 3.5 用户身份验证功能
 
 用户可以登录到手机程序，如果用户没有该程序的账号，用户还可以注册一个新的账号。当用户成功进行身份验证之后，用户便可以添加新的信息，并可以根据用户的权限管理信息。其用例图如图3-5所示。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/a0f3a9487ae0f46d10c1cd0ef2e7f823.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/a0f3a9487ae0f46d10c1cd0ef2e7f823.writebug)
 
 ## 3.6 查询餐饮信息功能
 
 用户可以根据当前所在的城市，查询周边的餐馆和美食信息。这些信息主要包括餐馆的地址，电话，介绍。通过这些信息满足用户对于食物和美食的需求。当然，用户还可以添加相关的餐饮信息，以丰富数据。 其用例图如图3-6所示。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/051a09242771eecf03fd7a5914e18ed2.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/051a09242771eecf03fd7a5914e18ed2.writebug)
 
 ## 3.7 在线市场交易功能
 
 用户可以游览在线市场当中的商品信息。这些信息包括商品的价格，介绍，图等。如果用户需要其中的某一件商品则可以通过线下联系的方式进行交易。当然，用户也可以发布自己的商品信息。从而形成P2P的在线交易市场。当然，管理员身份的用户可以审核这些信息，并对其进行管理。其用例图如图3-7所示。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/8bbebdad9a1e73cbc43e1b843ec37293.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/8bbebdad9a1e73cbc43e1b843ec37293.writebug)
 
 ## 3.8 查询家政服务功能
 
 用户可以根据当前所在的城市，查询到关于清洁工，月嫂，搬家公司的信息。通过这些信息用户可以获取到自己所需要的服务。当然，如果用户是相关业务的从业者，也可以在程序当中发布自己的信息。其用例图如图3-8所示。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/88b75264a87c891f7ffd186ece119c5d.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/88b75264a87c891f7ffd186ece119c5d.writebug)
 
 # 第四章 架构设计与实现
 
@@ -258,23 +258,23 @@ Bolts框架主要包括以下内容。
 
 **本项目采用的架构**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/67bb10b67f34be0874a67d8f11b543c4.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/67bb10b67f34be0874a67d8f11b543c4.writebug)
 
 **大量Android项目中采用的架构**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/7da747d6727e166e04d053d6b058dc60.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/7da747d6727e166e04d053d6b058dc60.writebug)
 
 正如上面所说一个模块是由一个Activity和若干Fragment构成。真正的业务逻辑由Fragment实现。而Actvitiy作为这些Fragment的容器和Manger。如图4-3所示，若干Activity构成了整个应用的功能模块，而每个Activity由若干Fragment构成。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/042177809d7677568bfca963840a3565.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/042177809d7677568bfca963840a3565.writebug)
 
 而在Android3.0之前，系统的功能实现只能由单个Activity实现，众多的Activity组合成一个模块，就如图4-4所示。这种架构的实现方式的缺点在于，Activity之间的通信方式非常困难。同时也不利于程序代码的解耦工作。使用Fragment后的程序架构不仅变的更佳清晰，也有利于后期适配不同尺寸的工作。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/5ca67f03c7a08240fec3ba51d97136ae.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/5ca67f03c7a08240fec3ba51d97136ae.writebug)
 
 而各个Fragment的具体业务逻辑又由相应的BusinessModel，ServiceModel，PersistModel实现。就如图4-5所示，若干Model支撑着Fragment的具体实现。在这些Model中，ServiceModel主要负责与服务器对通信。PersistModel主要负责数据持续化的工作。BusinessModel主要负责专业的业务逻辑的工作。这些模块之间相互配合，相互调用，最终使得Fagment可以正常使用。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/aaf3852028e620bdb9ba1b996fb57b1b.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/aaf3852028e620bdb9ba1b996fb57b1b.writebug)
 
 ## 4.2 模块之间的通信方式
 
@@ -284,17 +284,17 @@ Bolts框架主要包括以下内容。
 
 **大量项目采用的通信方式**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/f4643d3ff51c2f6d9118d1db68c38ac7.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/f4643d3ff51c2f6d9118d1db68c38ac7.writebug)
 
 **大量项目采用的通信方式**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/6d5d01bb9350c47b00745528f92e8715.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/6d5d01bb9350c47b00745528f92e8715.writebug)
 
 ### 4.2.2 Fragment 之间的通信
 
 由于Fragment本身的设计相对于Activity来说要更加容易实现模块间通信。在本项目当中采用了构造者的设计模式，将需要传入的数据传递给Builder，并把回调接口也传递给Builder。之后再调用create方法，生成Fragment。也就是说，Fragment使用了直接传值和回调接口的方式实现了模块通信。当然最后依旧使用BusinessModel对这些过程进行分装。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/abb71a7c64bc8ff2ae1fc52285ba1a8d.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/abb71a7c64bc8ff2ae1fc52285ba1a8d.writebug)
 
 ### 4.2.3 其他模块之间的通信
 
@@ -314,13 +314,13 @@ Bolts框架主要包括以下内容。
 
 - **通用组件模块**：提供供其他模块使用的的通用模块，包括：城市选择、日期选择、通知弹出、公告信息、用户身份验证
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/a12f4598470e0a416844e49546a78ff0.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/a12f4598470e0a416844e49546a78ff0.writebug)
 
 ## 4.4 服务端的实现方式
 
 在本项目的实现当中，服务端的数据主要分为三大类。如图4-10所示，分为第三方WebService、项目Service、虚拟Service。其中WebService使用的是聚合网的云服务和百度的LBS云服务，通过链接他们的API，获取与周边信息，交通信息相关的全网数据。项目Service，采用的是LeanClound和qiniu的云服务支持。其提供的是项目自身产生的数据，包括用户信息，P2P信息等。虚拟Service，则主要是用于项目调试使用的虚拟服务器。他是一个离线的伪服务器，通过他，在开发过程中可以抛弃服务端而直接进行开发，减少了与服务端的耦合。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/6593b26d02e250c3ba5476e3716edc93.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/6593b26d02e250c3ba5476e3716edc93.writebug)
 
 在选择选择云服务的过程当中，主要考虑的内容有以下几点：
 
@@ -340,7 +340,7 @@ LeanClound的云服务，是一个paas的云服务系统。他过去的称呼是
 
 在本项目当中，除了需要使用到网络数据之外，还需要使用到部分离线数据。这些数据都统一由持续化层来实现。如图4-11所示，本项目提供的持续化模块主要有以下这些。他们的工作就是通过代码的封装，将原本对于File和SharedPreferences的操作封装起来。为上层模块提供简单明了的API服务。在过去的项目当中，该层次的代码，往往被简易的放置在Actviity当中，这样的做法直接导致了离线数据的管理混乱和使用不便。时常会出现由于代码遗留的问题导致相同类型的数据被多次存放，或被错误存放。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/ad19c13e08878329d5251895967d7f37.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/ad19c13e08878329d5251895967d7f37.writebug)
 
 下面举例来说明数据持续化层的实现方式。在本项目当中UserPersisit主要负责存放和用户信息相关的数据。其背后的实现使用的是SharedPreferences。通过存储USER_NAME、USER_ID、USER_ICON三个字段来持续化用户的信息。
 
@@ -352,17 +352,17 @@ LocationPersist主要存放和位置相关的数据。其背后的实现使用�
 
 功能导航页作为程序的首页，负责引导用户前往其他功能模块。他由HomeActivity及其一系列模块组成。其中负责界面UI显示的有fragment_home.xml,fragment_arround.xml,fragment_life.xml,fragment_personal。其中fragment_home.xml只包含一个Tab和一个Pager。他们组成了一个fragment的容器，继而形成了当前的布局。而另外三个布局文件，则真正负责功能导航。在程序运行的过程中，ArroundFragment会加载fragment_arround.xml，LifeFragment会加载fragment_life.xml，PersonalFragment会加载fragment_personal.xml。而HomeFragment则会加载home_fragment，并将ArroundFragment，LifeFragment，PersonalFragment加载到容器当中。其关系如图5-1所示。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/de5c2b11672981d9974c80e0d2e79529.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/de5c2b11672981d9974c80e0d2e79529.writebug)
 
 值得注意的是，HomeFragment使用的Tab是一个第三方的开源框架。该框架简化了原Tab与Pager之间繁琐的设置，并且提供丰富的API设置，帮助开发者方便的设置Tab的细节。这些细节包括，Tab的字体风格，Tab区块的风格，Tab滑块的风格。最最重要的是，该框架的使用，使得原先50多行的代码被缩减到了10行。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/256a47fc3e6002dade7224bd5d0e672a.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/256a47fc3e6002dade7224bd5d0e672a.writebug)
 
 HomeFragmnet除了负责作为Fragment的容器之外，其也要负责用户对当前城市的选择。这段代码被放置在了对Toolbar的设置当中。Toolbar是Android5.0最新引入的特性，他的作用是替代原先ActionBar的作用。但是他比ActionBar更加灵活丰富。
 
 在ArroundFragment、LifeFragment、PersonalFragmnet中真正负责导航的逻辑由各个Model模块负责，例如说，P2PBusiness负责根据特定参数，跳转到P2PActivity。其中的关系如图5-3所示。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/72e4031f38415e4afd026d9a4ca95b0a.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/72e4031f38415e4afd026d9a4ca95b0a.writebug)
 
 功能导航模块对应的Activity为HomeActivity，其主要由HomeFragment，ArroundFragment、LifeFragment、PersonalFragment组成。HomeFragment实现了一个带有Tabs和Pager的Fragment，其通过包含另外三个Fragment实现功能导航。
 
@@ -378,11 +378,11 @@ PersonalFragment主要负责个人信息的功能导航。但他的业务逻辑�
 
 **POI模块的实现**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/47892fe00ba97a7bde97c78aeb745f34.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/47892fe00ba97a7bde97c78aeb745f34.writebug)
 
 **POI模块的界面组成**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/7aee59077f23e17d2846323f4ddb82c2.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/7aee59077f23e17d2846323f4ddb82c2.writebug)
 
 值得注意的是PersonalPOIListFragment和POIListFragment，PersonalPOIDetailFragment和POIDetailFragment是继承关系。这两个特殊的Fragment除了继承了原本Fragment的特性之外，还具有对现有POI信息修改的能力。当然，普通用户只能修改自己产生的POI数据，而管理员用户可以修改所有自己产生的POI数据。正因为有了这两个Fragment，程序拥有了数据管理和审核的功能。
 而在POIBusiness的具体实现当中，由于周边信息的数据主要来自两方面。一个是百度提供的LBS云服务，另外一个是本应用自产生的数据。因此在整个数据获取的算法当中，其实现逻辑是首先获取本应用自产生的数据，之后获取百度LBS云服务的数据。通过这样的算法，强化了自产数据的价值。
@@ -394,19 +394,19 @@ POIAddFragment和POIAlterFragment分别负责POI信息的添加和管理的业�
 
 **查询医疗信息的完成效果**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/6280ebd4ca4cf40aa8f791ffabd42b54.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/6280ebd4ca4cf40aa8f791ffabd42b54.writebug)
 
 **查询酒店信息的完成效果**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/44424e4c2a14df7c8667cbcba5dfdb85.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/44424e4c2a14df7c8667cbcba5dfdb85.writebug)
 
 **查询家政信息的完成效果**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/2dcec1db3e5ddcc167936237338609fb.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/2dcec1db3e5ddcc167936237338609fb.writebug)
 
 **查询餐饮信息的完成效果**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/1ae17cc0390b07af90321f5d99155728.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/1ae17cc0390b07af90321f5d99155728.writebug)
 
 ## 5.3 交通信息查询的实现
 
@@ -414,21 +414,21 @@ POIAddFragment和POIAlterFragment分别负责POI信息的添加和管理的业�
 
 **交通查询模块的界面组成**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/418e9f40540bf5fa227cd3e8fdd23d9b.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/418e9f40540bf5fa227cd3e8fdd23d9b.writebug)
 
 **交通查询模块的实现**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/23b3464df631f3224442ac068a26d6f1.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/23b3464df631f3224442ac068a26d6f1.writebug)
 
 而在完成界面渲染之后，xxxInfoRequestFragment通过BusBusiness，TrainBusiness，PlaneBusiness封装所要查询的交通数据的请求参数，并跳转到对应的xxxInfoResultFragment当中。而在xxxInfoResultFragment中则根据传递而来的请求参数数据，BusService，TrainService，PlaneService请求获取相应的交通信息。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/f587a48fbb3c9fb650dbe1c51c768d3f.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/f587a48fbb3c9fb650dbe1c51c768d3f.writebug)
 
 交通查询模块对应的Activity主要是TrafficActivity。他的业务逻辑主要由PlaneInfoRequestFragment，PlaneInfoResultFragment，TrainInfoRequestFragment，TrainInfoResultFragment，BusInfoRequestFragment，BusInfoResultFragment实现。其中xxxRequestFragment负责的是显示设置参数请求页，xxxResultFrgament负责的是显示搜索结果页。以Plane为例，PlaneInfoRequestFragment负责的是航班信息搜索参数的设置页面，PlaneInfoResultFragment负责的是航班信息搜索结果页。
 
 在这些Fragment的背后，其业务逻辑分别是由PlaneService，BusService，TrainService，DateBusiness，LocationBuseinss实现的。其中PlaneService，BusService，TrainService负责与相应的服务器联系，请求和获取数据。DateBusiness负责选择日期。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/02e43423a03b77c304f31bf34fbc81c0.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/02e43423a03b77c304f31bf34fbc81c0.writebug)
 
 ## 5.4 自由交易市场的实现
 
@@ -436,21 +436,21 @@ POIAddFragment和POIAlterFragment分别负责POI信息的添加和管理的业�
 
 **P2P模块的界面组成**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/994741e4ac656b1621a2ec899ce7c664.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/994741e4ac656b1621a2ec899ce7c664.writebug)
 
 **P2P模块的功能实现**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/e945937ea606f12a54f209802752f0be.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/e945937ea606f12a54f209802752f0be.writebug)
 
 值得注意的是，PersonalP2PListFragment和P2PListFragment，PersonalP2PDetailFragment和P2PDetialFragment之间是继承关系。他们在原有父类的基础上增加了对商品数据修改的功能，正是因为这些功能的存在，用户才可以对上述的数据进行修改和管理。当然如果当前的用户是管理员用户，他可以对所有的商品数据进行修改。
 
 在P2PService中，将会负责访问服务器，获取相关的商品数据。服务器会根据相应的请求参数返回封装好的json数据。之后P2PService将会对这些Json数据进行解析，并将其封装成为P2PItemBean返回给响应的Fragment。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/1ed3d4a58ca12b8e5b6d9f11196985f0.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/1ed3d4a58ca12b8e5b6d9f11196985f0.writebug)
 
 在P2PBusiness中，其主要负责在各个P2P页面中相互跳转。确保这样的页面跳转能够正常的运行。并且使得原本重复出现的代码被完好的封装，减少代码的冗余程度。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/4d2831ca76d3a3d4a0649cd878d4dd24.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/4d2831ca76d3a3d4a0649cd878d4dd24.writebug)
 
 P2P模块对应的Activity主要是P2PActivity，其主要是由P2PInfoListFragmnet，P2PInfoDetailFragment，P2PAddFragment，P2PAlterFragment，PersonalP2PInfoListFragment，PersonalP2PInfoDetailFragment实现。
 其中P2PInfoListFragment，负责显示P2P信息的列表。P2PInfODetailFragment负责显示详细的P2P信息。而PersonalP2PInfoListFragment和PersonalP2PInfoDetailFragment分别继承了上述两个Fragment。其显示的是当前登入用户提交的P2P信息。
@@ -459,15 +459,15 @@ P2PAddFragment和P2PAlterFragment分别负责P2P信息的添加和管理的业�
 
 **查询商品信息的完成效果**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/8ebbd11c1e7eb1b325cd929dbab8ebe1.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/8ebbd11c1e7eb1b325cd929dbab8ebe1.writebug)
 
 **发布新的商品的完成效果**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/cd659244334a5a3a8528612f93d976ae.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/cd659244334a5a3a8528612f93d976ae.writebug)
 
 **信息审查管理的完成效果**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/0d52e73a383a36bd4668396c268b7b51.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/0d52e73a383a36bd4668396c268b7b51.writebug)
 
 ## 5.5 选择城市和GPS 定位的实现
 
@@ -475,37 +475,37 @@ P2PAddFragment和P2PAlterFragment分别负责P2P信息的添加和管理的业�
 
 **选择城市模块的界面组成**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/0c3539bf14357f7b761b721f69167bd1.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/0c3539bf14357f7b761b721f69167bd1.writebug)
 
 **选择城市模块的实现**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/922a479e799cd2dae81a4b3c28c02915.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/922a479e799cd2dae81a4b3c28c02915.writebug)
 
 值得注意的是，ChooseCityHelper所获取的数据是本地离线数据。由于城市列表数据是一个非常稳定数据。因此在程序设计之初将其写死在程序当中。通过LocationPersist获取封装城市信息的json数据。之后再使用Gson将数据解析成CityBean数据，其相关的代码见图5-23。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/0963f2a0b247a79a894f898eb25e4115.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/0963f2a0b247a79a894f898eb25e4115.writebug)
 
 而在程序的设计时，为了方便用户选择城市。城市选择界面采用了按照拼音首字母排列的方式。因此这给原本简单的城市选择列表的时间增加了小小的难度。为了实现该功能，我们对传递给Adapter的数据进行了处理。其中增加了style数据变量，程序将会根据该变量判断，该数据是城市数据还是字母标签数据。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/9b685bb91ba318af215dbe5b8fdcc311.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/9b685bb91ba318af215dbe5b8fdcc311.writebug)
 
 另外在选择城市页面当中，当成功选择了当前城市之后，会触发设置的回调接口，通知相应的组件，已经成功的选择了城市。该回调接口的设置是在Builder中进行的，这样的设计确保了开启ChooseCityFragment时，必定设置了Callback。继而避免了不应有的程序Bug。
 
 另外需要关注的是定位功能的实现。本项目的定位功能采用了baidu提供的SDK，通过调用百度SDK的API获取当前设备所在的地理位置信息。使用该SDK的方法是，首先在Applicatiion中onCreate方法中初始化百度SDK的对象。之后使用LocationClient获取当前的位置信息，其相关的代码见5-25。另外图5-26是城市选择模块的完成效果图。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/3349d1372d31a83ce79e5ceb5b3b83fc.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/3349d1372d31a83ce79e5ceb5b3b83fc.writebug)
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/cc936d50eb8ab19ab0d77129c31d135c.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/cc936d50eb8ab19ab0d77129c31d135c.writebug)
 
 ## 5.6 日期选择的实现
 
 选择日期模块的组成如图5-27所示，其组成部分相对简单，只有DateBusiness和DatePcikerFragment。其中DatePickerFragment负责将日期渲染日期选择界面，并提供一个回调接口供调用者获取用户选择的日期。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/76664a6a0c246cbe1728e7ca0c6a8b2c.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/76664a6a0c246cbe1728e7ca0c6a8b2c.writebug)
 
 日期选择实际上采用的是系统默认的日期选择组件。但是区别于以往的是，在程序中没有直接使用Dialog，而是使用DialogFragment封装了该模块。这样做的目的是为实现选择时间的回调接口，同时今后如果需要使用自定义的日期选择模块，则可以在不影响其他代码的情况下，无缝切换。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/dad80661d423f857a34cc51e97592ab5.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/dad80661d423f857a34cc51e97592ab5.writebug)
 
 另外，同样为了实现日期选择的异步回调。日期选择模块和城市选择模块一样使用了回调接口的方式，实现日期选择结果的返回。并且回调接口被设计必须要通过Builder设置，通过这样的方法，避免了因为使用DatePickerFragment时，没有设置Callback而导致的Bug。另外在DateBusiness则使用Bolts框架，对日期选择的操作进一步做了封装，使得调用者可以非常优雅的卸除日期选择程序的代码。
 
@@ -517,11 +517,11 @@ P2PAddFragment和P2PAlterFragment分别负责P2P信息的添加和管理的业�
 
 **身份验证模块的实现**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/f84513fc020f879523f68bf327d975fc.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/f84513fc020f879523f68bf327d975fc.writebug)
 
 **身份验证模块的界面组成**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/516e491a0fbcda154d0f466e7d683b1f.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/516e491a0fbcda154d0f466e7d683b1f.writebug)
 
 在LoginFragment的实现当中，其主要的业务逻辑便是加载LoginFragment和SigninFragment。与此同时，设置Pager和Tab。由于使用了PagerSlidingTabStrip。因此相关的代码变的相对简单和简洁。
 
@@ -529,23 +529,23 @@ P2PAddFragment和P2PAlterFragment分别负责P2P信息的添加和管理的业�
 
 在LoginFragment中，其通过与AuthenticateService的通信，来验证当前输入的用户名和密码是否正确。如果正确，则会通过回调接口的方式，将用户数据UserInfoBean返回给相关代码。在这里，回调接口的设计依旧使用了Builder的方式，目的是为了减少在使用过程由于没有设置Callback导致的Bug，其相关的代码如图5-31。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/591754490737892a452d47763f9cb4d7.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/591754490737892a452d47763f9cb4d7.writebug)
 
 在SiginFragment中，其通过与AuthenticateService的通信，根据输入的用户名和密码注册新的用户。如果注册成功，则会通过回调接口的方式，将用户数据UserInfoBean返回给相关代码。在这里，回调接口的设计依旧使用了Builder的方式，目的是为了减少在使用过程由于没有设置Callback导致的Bug。
 
 在AuthenticateBusiness中，程序提供了判断当前是否处于登入状态，如果除了查询登入状态还提供了获取当前登入用户的用户信息的接口。值得注意的是这些信息是通过persisit模块持续缓存在程序当中的。图5-32是用户验证模块完成的效果图。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/8c34fda1382a99fbc8e596e86a84af01.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/8c34fda1382a99fbc8e596e86a84af01.writebug)
 
 ## 5.8 公告信息的实现
 
 图5-33是应用公告信息的实现。其实现方式非常的简单，由NotifeInfoFragmet加载fragment_notife_info.xml。然后Frgament再通过NotifeInfoBusiness获取相关的数据，并将数据渲染到界面当中去。其中NotifeInfoBusiness所获取的数据来自Persist的离线数据，该数据是被缓存在应用当中的。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/bff2175e42d69ff955c09350d493fe66.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/bff2175e42d69ff955c09350d493fe66.writebug)
 
 如图5-34所示，十大旅游景点由如下模块组成。其中TenTopSpotsFragmet负责加载layout_list.xml，之后通过TenTopSpotsBusiness获取相关的数据。并将数据传递给Adapter，由其渲染到界面当中。其中TenSpotsBusines获取的数据是由Persist离线数据获得的，中间经过了json解析的步骤。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/e7575e027effdeb55068ebbab2ca9128.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/e7575e027effdeb55068ebbab2ca9128.writebug)
 
 # 第六章 测试
 
